@@ -1,0 +1,5 @@
+file_object = open('hoai.txt', mode='a+')
+data = file_object.write("are you see me in console")
+data = file_object.read(4)
+file_object.seek(2)
+print(data)
